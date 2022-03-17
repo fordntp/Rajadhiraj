@@ -16,6 +16,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Acme&family=Thasadith:wght@400;700&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
@@ -30,8 +35,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">ความเป็นมา</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">ประวัติผู้แต่ง</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#autherBio">ประวัติผู้แต่ง</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#chap1">ลักษณะคำประพันธ์</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#chap2">เนื้อเรื่องย่อ</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +49,7 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0">ราชาธิราช</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">ตอน สมิงพระรามอาสา</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <a class="btn btn-primary" href="#about">เริ่มอ่าน</a>
                     </div>
                 </div>
             </div>
@@ -52,151 +58,130 @@
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
+                    <div class="col-lg-10">
+                        <img class="img-fluid pb-5" src="assets/img/book.jpg"  style="height: 30rem;" alt="..." />
                         <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                            ราชาธิราช เป็นพงศาวดารมอญเรื่องราวการทำศึกของพระเจ้าราชาธิราชกับพระมณเฑียรทองในประวัติศาสตร์เมืองหงสาวดีกับมอญ
+                            โดยพระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ 1) โปรดเกล้าให้ เจ้าพระยาคลัง(หน) พระอินทรอัคราช พระภิรมรัศมี และพระศรีภูริปรีชา แปลและเรียบเรียงจากภาษามอญเป็นภาษาไทย เมื่อปีพุทธศักราช 2328
+                            มีพระราชประสงค์ให้แปลเพื่อเป็นประโยชน์แก่พระบรมวงศานุวงศ์ และข้าราชการเพื่อ  
+                            <b>“จดจำไว้เป็นคติบำรุงสติปัญญา”</b>
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="" alt="..." />
             </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light" id="autherBio">
             <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
+                <!--Row1 -->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/5431519.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                    <div class="col-xl-3 col-lg-3 text-center "><img class="img-fluid mb-3 mb-lg-0" src="assets/img/Prayurawongse.jpg" alt="..." /></div>
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="col-12 text-center pb-5">
+                            <h4><i class="bi bi-person"></i> &nbsp; ประวัติผู้แต่ง</h4>
+                        </div>
+                        <div class="featured-text  text-lg-left">
+                            <p class="text-black-50 mb-0">
+                                <i class="bi bi-caret-right-fill"></i>เจ้าพระยาคลัง (หน) เกิดในแผ่นดินสมเด็จพระเจ้าอยู่หัวบรมโกศสมัยอยุธยาตอนปลายและถึงแกอสัญกรรมเมื่อ พ.ศ.2348 ในแผ่นดินรัชกาลที่ 1
+                            </p>
+                            <p class="text-black-50 mb-0">
+                                <i class="bi bi-caret-right-fill"></i>ในรัชสมัยสมเด็จพระเจ้ากรุงธนบุรี ได้รับราชการมีบรรดาศักดิ์เป็นหลวงสรวิชิต นายด่านเมืองอุทัยธานี ต่อมาในสมัยรัชกาลที่ 1 ได้เลื่อนเป็นพระยาพิพัฒนโกษาและเจ้าพระยาพระคลัง
+                            </p>
+                            <p class="text-black-50 mb-0">
+                                <i class="bi bi-caret-right-fill"></i>ผลงานที่สำคัญ 
+                            </p>
+                            <ul>
+                                <li class="text-black-50 mb-0">
+                                    ลิลิตเพชรมงกุฎ อิเหนาคำฉันท์ ราชาธิราช สามก๊ก กากีคำกลอน
+                                    ลิลิตพยุหยาตราเพชรพวง ลิลิตศรีวิชัยชาดก 
+                                   กลอนและร่ายจารึกเรื่องสร้างภูเขาที่วัดราชคฤห์ 
+                                   ร่ายยาวมหาเวชสันดรชาดก กัณฑ์กุมารและกัณฑ์มัทรี
+                                   สมบัติอมรินทร์คำกลอน เป็นต้น                           
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
+                <!-- Row2 -->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="chap1">
+                    <div class="col-lg-12">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white">ลักษณะคำประพันธ์</h4>
+                                    <p class="mb-0 text-white-50">ราชาธิราช ตอน สมิงพระรามอาสา แปลและเรียบเรียงแต่งเป็น ร้อยแก้ว ใช้ประโยคที่มีขนาดสั้นยาวได้จังหวะ  <br/>มีคารมคมคาย ใช้โวหารต่าง ๆ ได้อย่างจับใจและมีกลวิธีในการดำเนินเรื่องแบบเรื่องเล่าลักษณะคล้ายนิทาน
+                                    </p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="chap2">
+                    <div class="col-lg-10">
+                        <div class="h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
+                                <div class="project-text w-100 my-auto  text-lg-left">
+                                    <span class="text-center pb-3">
+                                    <h4 class="text-black"><i class="bi bi-book"></i> &nbsp; เนื้อเรื่องย่อ</h4>
+                                </span>
+                                    <p class="mb-0 text-black-50">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;พระเจ้ากรุงต้าฉิง แห่งเมืองจีนมีทหารเก่งนายหนึ่งมีฝีมือเก่งกาจด้านการขี่ม้าแทงทวนหาผู้ใดเสมอได้ยาก
+                                            นามว่า“กามะนี” วันหนึ่งพระเจ้ากรุงต้าฉิงต้องการจะดูกามะนีประลองยุทธ์กับทหารเมืองอื่นเพื่อเป็นขวัญตาจึงได้ปรึกษาเสนาบดี แล้วจึงทราบว่า กรุงอังวะและกรุงหงสาวดีมีทหารผู้เก่งกาจอยู่มาก จึงสั่งให้ยกทัพไปที่กรุงอังวะทันที
+                                            เมื่อมาถึงกรุงอังวะ พระเจ้ากรุงต้าฉิงได้สั่งการห้ามทหารไม่ให้ทำร้ายประชาชน หรือทหารทั้งปวงที่ไม่เกี่ยวข้องเป็นอันขาด หากผู้ใดขัดคำสั่งจะตัดหัวเสียบประจาน จากนั้นทรงมอบหมายให้   โจเปียว เป็นราชทูตนำพระราชสาส์นและเครื่องบรรณาการไปถวาย พระมณเฑียรทองว่าต้องการทอดพระเนตรทหารเอกของกรุงอังวะต่อสู้บนหลังม้ากับทหารเอกของกรุงจีน ถ้ากรุงอังวะแพ้ต้องยอมยกบ้านเมืองให้เป็นของพระองค์ แต่หากกรุงจีนแพ้ก็จะยกทัพกลับไป
+                                            พระเจ้ามณเฑียรทองเห็นว่าสงครามนี้นับว่าเป็น ธรรมยุทธ์คือรบกันตัวต่อตัวไม่ต้องสูญเสียกำลังทหารจึงตอบรับคำท้าไป และได้บอกว่าการต่อสู้นี้เป็นการต่อสู้ที่ยิ่งใหญ่จึงขอเวลา 7 วัน จากนั้นพระเจ้าฝรั่งมังฆ้องจึงประกาศหาผู้ที่จะรับอาสาต่อสู้กับทหารเอกของกรุงจีนพร้อมบอกว่าถ้าใครชนะได้จะโปรดเกล้าแต่งตั้งให้เป็นพระมหาอุปราชและแบ่งสมบัติให้กึ่งนึง
+                                        
+                                    </p>
+                                    <br/>
+                                    <p class="mb-0 text-black-50">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เมื่อวันประลองยุทธ์มาถึง สมิงพระรามเห็นกามะนีสวมเกราะมิดชิดยากที่จะแทงได้ จึงวางอุบายว่าให้แต่ละฝ่ายรำทวนให้อีกฝ่ายรำตามก่อนที่จะสู้กัน ทั้งนี้เพื่อจะคอยหาช่องทางที่จะแทงทวนให้ถูกตัวกามะนี เมื่อสมิงพระรามได้หลอกล่อให้กามะนีรำตามในท่าต่างๆ 
+                                        สมิงพระรามเห็นว่ามีสองช่องทางที่จะสอดทวนแทงเข้าไป คือ ช่องใต้รักแร้และกลีบเกราะท้ายหมวก สมิงพระรามจึงหยุดรำและให้ต่อสู้กันโดยทำทีว่าสู้ไม่ได้จากนั้นจึงขับม้าหนีให้ม้าของกามะนีเหนื่อยเมื่อได้ที ก็สอดทวนแทงซอกใต้รักแร้แล้วฟันย้อนกลีบเกราะตัดศีรษะของกามะนีขาดและเอาขอเหล็กสับใส่ตะกรวยโดยไม่ให้ศีรษะตกดิน นำมาถวายพระเจ้ามณเฑียรทอง 
+                                        ฝ่ายพระเจ้ามณเฑียรทองนั้นชอบใจในตัวสมิงพระราม เพราะมีความสามารถ ฝีมือดี จึงไม่อยากให้สมิงพระรามกลับกรุงหงสาวดี พระเจ้ามณเฑียรทองจึงมาปรึกษากับพระมเหสี พระมเหสีแนะนำให้ยกธิดาของตนให้กับสมิงพระราม สมิงพระรามเห็นพระธิดาก็ตะลึงในความงาม พระเจ้ามณเฑียรทองเห็นเช่นนั้นก็ดีพระทัยจึงพระราชทานตำแหน่งพระมหาอุปราชและมอบพระธิดาให้เป็นรางวัล
+                                    </p><br/>
+                                    <p class="mb-0 text-black-50">
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สมิงพระรามจึงอยู่กรุงอังวะต่อ แต่มีข้อแม้สองข้อคือ 1.ถ้ามีใครเรียกตนว่าเชลยตนจะขอกลับหงสาวดีทันที &nbsp;2.ตนจะไม่ขอฝักใฝ่ฝ่ายใดเป็นอันขาด <br/>
+                                        จากนั้นสมิงพระรามก็อยู่กินกับพระธิดาในฐานะอุปราช จนกระทั่งมีลูกชายด้วยกัน ครั้นลูกชายอายุได้ 1 ขวบเศษ วันหนึ่งพระเจ้ามณเฑียรทองอุ้มหลานชายนั่งบนตักด้วยความซุกซนของเด็กก็เอื้อมมือไปจับหัวของพระเจ้ามณเฑียรทอง พระเจ้ามณเฑียรทองจึงพลั้งปากตรัสออกไปว่า “ลูกไอ้เชลยนี้กล้าหาญนัก”
+                                        สมิงพระรามได้ยินดังนั้นจึงน้อยใจหนีออกจากรุงอังวะไป เมื่อความทราบถึงพระเจ้ามณเฑียรทอง พระองค์จึงไปบอกพระมเหสี พระมเหสีจึงกราบทูลว่า “พลั้งปากก็ย่อมเสียการ พลั้งมีดพลั้งขวานมักจะบาดเจ็บ” 
+                                        ฝ่ายสมิงพระรามเมื่อกลับถึงกรุงหงสาวดี พระเจ้าราชาธิราชก็ดีใจยิ่งนัก ถึงกับจัดมหรสพเพื่อเฉลิมฉลองเป็นเวลา 7 วัน 7 คืน
+                                    
+
+
+
+                                    </p>
+                                    <p class="mb-0 text-black-50">
+                                    </p>
+                                    <p class="mb-0 text-black-50">
+                                    </p>
+                                    <p class="mb-0 text-black-50">
+                                    </p>
+                                    <p class="mb-0 text-black-50">
+                                    </p>
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-black text-center">
+            <div >
+                <p class="text-white">จัดทำโดย</p>
+                <p class="text-white">นางสาวกันฐิมา แซ่เตื้อง</p>
+                <p class="text-white">คณะศิลปศาสตร์ สาขาภาษาไทยประยุกต์</p>
+                <p class="text-white">มหาวิทยาลัยสงขลานครินทร์</p>
+                
+            </div>
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://web.facebook.com/kuntima.kun" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 </div>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2022</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
